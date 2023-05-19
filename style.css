@@ -1,0 +1,38 @@
+.station {
+  fill: rgb(17, 155, 219);
+}
+
+.state-borders {
+  fill: none;
+  stroke: 'gray';
+}
+
+.station-arc {
+  fill: none;
+}
+
+.station:hover .station-arc {
+  stroke: rgb(245, 15, 15);
+}
+
+.station-cell {
+  fill:none;
+  stroke: rgba(0, 0, 0, 0.418);
+  stroke-opacity: 0;
+  pointer-events: all;
+}
+p{
+  font: 20px calibri;		
+  background: rgb(163, 164, 165);
+  color:rgb(17, 0, 255);
+}
+button {
+  display: inline-block;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        color: #ffffff;
+        background-color: #7aa8b7;
+        border-radius: 6px;
+        outline: none;
+}
